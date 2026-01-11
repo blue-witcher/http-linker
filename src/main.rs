@@ -14,6 +14,6 @@ fn main() {
         let link = &args[0];
         create_http_link(link);
     } else {
-        eprintln!("You need to provide at least one URL as a command-line argument.")
+        eprintln!("You need to provide exactly one URL as a command-line argument.")
     }
 }
